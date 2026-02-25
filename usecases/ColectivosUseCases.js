@@ -1,9 +1,7 @@
 import Colectivo from "../models/Colectivo.js";
 import Parada from "../models/Parada.js";   
 import { colectivosRepository } from "../repositories/ColectivosRepository.js";
-import { paradasRepository } from '../repositories/ParadasRepository.js'; // Solo para contexto, ya está importado en el archivo
-
-
+import { paradasRepository } from '../repositories/ParadasRepository.js';
 
 class ColectivosUseCases {
 

@@ -2,7 +2,7 @@ class Colectivo {
 
     constructor(id, latitud, longitud, velocidad) {
 
-      //  this.validarId()
+       // this.validarId()
         this.id = id;
 
         this.validarUbicacion(latitud)
@@ -23,7 +23,7 @@ class Colectivo {
     }
 
     validarId(id) {
-        if (typeof id !== "string" || id.length !== 6 || !/^[A-Za-z0-9]{3}\d{3}$/.test(id)) {
+        if (typeof id !== "string" || id.length !== 6 || !/^[A-Za-z0-9]{6}$/.test(id)) {
             throw new Error("id debe ser una cadena de exactamente 6 caracteres alfanuméricos");
         }
     }
