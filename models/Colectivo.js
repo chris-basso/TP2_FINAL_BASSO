@@ -2,7 +2,7 @@ class Colectivo {
 
     constructor(id, latitud, longitud, velocidad) {
 
-       // this.validarId()
+       this.validarId(id);
         this.id = id;
 
         this.validarUbicacion(latitud)

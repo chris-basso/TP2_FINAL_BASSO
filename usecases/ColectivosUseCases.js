@@ -16,8 +16,9 @@ class ColectivosUseCases {
     }
 
     createColectivosUseCases(colectivos) {
-        let respuesta = null;
+        let respuesta = {}; 
         try {
+        
             const nuevoColectivo = new Colectivo(colectivos.id, colectivos.latitud, colectivos.longitud, colectivos.velocidad);
             const distancias = this.calcularDistanciasParadas(nuevoColectivo.latitud, nuevoColectivo.longitud);
             const paradaCercana = this.getParadaCercana(distancias);
