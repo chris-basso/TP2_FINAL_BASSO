@@ -1,0 +1,26 @@
+{
+  "name": "tp2_final_basso",
+  "version": "1.0.0",
+  "description": "\"# TP2_FINAL_BASSO\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-basso/TP2_FINAL_BASSO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-basso/TP2_FINAL_BASSO/issues"
+  },
+  "homepage": "https://github.com/chris-basso/TP2_FINAL_BASSO#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
